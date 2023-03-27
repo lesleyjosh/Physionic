@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header py-5">
+        <div class="container">
+            <div class="headerWrapper flex items-center justify-between">
+
+            <div class="headerLogo">
+                <h2 class="text-secondary font-bold text-[2rem]">Physionic</h2>
+            </div>
+
+            <div class="headerNav hidden md:block">
+                <ul class="flex gap-5">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="getAQoute hidden md:block">
+                <a class="bg-primary p-3 rounded-md text-white font-semibold" href="#">Get a Qoute Now</a>
+            </div>
+            
+            <div class="flex gap-5 md:hidden">
+
+         
+            <div class="searchAndCart flex gap-6">
+                <i class="fa-solid fa-magnifying-glass text-darkGray text-2xl"></i>
+                <i class="fa-solid fa-cart-shopping text-darkGray text-2xl"></i>
+            </div>
+
+            <div class="toggleMenu cursor-pointer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        </div>
+        
+        <div class="headerMobileNav md:hidden transition-all duration-500">
+            <ul class="text-center text-[1.5rem] text-darkGray font-semibold py-5]">
+                <li><a class="block p-3" href="#">Home</a></li>
+                <li><a class="block p-3" href="#">Product</a></li>
+                <li><a class="block p-3" href="#">Pricing</a></li>
+                <li><a class="block p-3" href="#">Contact</a></li>
+            </ul>
+        </div>
+       
+    </div>
+ </header>
+
+ <section class="banner bg-cover bg-blend-multiply bg-darkGray bg-left-top bg-no-repeat bg-[url('./img/hero-cover.jpg')] py-10 text-center text-white ">
+    <div class="container">
+        <div class="bannerWrapper lg:flex">
+        <div>
+            <h1 class="text-[3rem] lg:text-[4rem] font-semibold mb-6 mt-[5rem]">Meet the Best <br> Hospital</h1>
+            <p class="mb-6 w-[70%] mx-auto lg:text-left">We know how large objects will act, 
+                but things on a small scale.</p>
+                <div class="button lg:flex justify-evenly ">
+                    <a href="" class="inline-block bg-primary px-5 py-3 rounded-full font-semibold mb-6 ">Get a Quote Now</a><br>
+            <a href="" class="inline-block bg-transparent border-[1px] border-white px-5 py-3 rounded-full font-semibold mb-6">Learn More</a>
+                </div>
+            
+        </div>
+        <div class="bannerForm text-left text-black bg-white p-10 rounded-lg w-[300px] mx-auto my-10 lg:mr-0">
+            <h3 class="text-center mb-4">Book Appointment</h3>
+            <form action="">
+
+                <div class="inputGroup mb-3">
+                    <label for="">Name*</label>
+                    <input class="p-1 w-full" type="text" placeholder="Full Name">
+                </div>
+
+                <div class="inputGroup mb-3">
+                    <label for="">Email*</label>
+                    <input class="p-1 w-full" type="email" placeholder="example@gmail.com">
+                </div>
+
+                <div>
+                     <label for="">Department</label>
+                        <select class="border-2 rounded-md p-1 w-full" name="" id="">
+                            <option value="">Please Select</option>
+                        </select>
+                </div>
+                <div>
+                    <label for="">Time</label>
+                        <select class="border-2 rounded-md p-1 w-full" name="" id="">
+                            <option value="">4:00 Available</option>
+                        </select>
+                </div>
+                    
+
+
+            </form>
+        </div>
+    </div>
+    </div>
+    
+</section>
+<section class="features py-16">
+    <div class="container">
+        <h1 class="text-huge font-semibold mb-6 text-center">Leading Medicine</h1>
+        <p class="text-center mb-6 w-[70%] mx-auto">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        <div class="feauturesWrapper md:grid grid-cols-3 gap-3 mx-12">
+            <div class="featurestype  mb-4">
+                <div class="bg-primary flex rounded-lg py-5 px-5">
+                <img src="./img/icn-circle circle-md.png" alt="">
+                <h1 class="text-white p-3 mt-2">Emergency Case</h1>
+              </div>
+                  <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                    <p>-  The best products start 
+                        with Figma</p>
+                    <p>- Design with real data</p>
+                    <p>- Lightning fast prototyping</p>
+                    <p>- Fastest way to organize</p>
+                    <p>- Work at the speed of thought.</p>
+                    <a  class="text-primary" href="">Learn More</a>
+
+                </div>
+
+                </div>
+                <div class="featurestype  mb-4">
+                    <div class="bg-primary flex rounded-lg py-5 px-5">
+                    <img src="./img/icn-circle circle-md.png" alt="">
+                    <h1 class="text-white p-5">Cancer Care</h1>
+                  </div>
+                  <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                    <p>-  The best products start 
+                        with Figma</p>
+                    <p>- Design with real data</p>
+                    <p>- Lightning fast prototyping</p>
+                    <p>- Fastest way to organize</p>
+                    <p>- Work at the speed of thought.</p>
+                    <a  class="text-primary" href="">Learn More</a>
+
+                </div>
+
+                </div>
+
+                <div class="featurestype  mb-4">
+                    <div class="bg-primary flex rounded-lg py-5 px-5">
+                    <img src="./img/icn-circle circle-md.png" alt="">
+                    <h1 class="text-white p-5">Health Queries</h1>
+                  </div>
+                  <div class="insidethefeatures border border-primary rounded-lg py-5 px-5">
+                    <p>-  The best products start 
+                        with Figma</p>
+                    <p>- Design with real data</p>
+                    <p>- Lightning fast prototyping</p>
+                    <p>- Fastest way to organize</p>
+                    <p>- Work at the speed of thought.</p>
+                    <a  class="text-primary" href="">Learn More</a>
+
+                </div>
+
+                </div>
+            </div>
+
+    </div>
+</section>
+
+<section class="ratings py-16 bg-lightGray">
+    <div class="container">
+        <h1 class="text-huge font-bold mb-6 text-center md:overflow-hidden mt-0 md:invisible visible">What <br> Clients Say</h1>
+        <h1 class="md:text-huge md:font-semibold md:text-center md:mt-[-3rem] md:visible invisible">Leading Medicine</h1>
+        <p class="md:text-center md:mb-0 md:w-[70%] md:mx-auto md:visible invisible">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
+        <div class="ratingsWrapper md:grid grid-cols-3 gap-3 mx-12 mt-10">
+            <div class="ratingsContent p-5 border-2 border-black mb-8">
+                <div class="stars flex text-[2rem] text-yellow-400 mb-5">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="ratingsCom mb-3">
+                    <p>Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                </div>
+                <div class="client">
+                    <img src="./img/dr.B.png" alt="">
+                </div>
+            </div>
+            <div class="ratingsContent p-5 border-2 border-black mb-8">
+                <div class="stars flex text-[2rem] text-yellow-400 mb-5">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="ratingsCom mb-3">
+                    <p>Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                </div>
+                <div class="client">
+                    <img src="./img/dr.C.png" alt="">
+                </div>
+            </div>
+            <div class="ratingsContent p-5 border-2 border-black mb-8">
+                <div class="stars flex text-[2rem] text-yellow-400 mb-5">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="ratingsCom mb-3">
+                    <p>Slate helps you see how many 
+                        more days you need to work to 
+                        reach your financial goal.</p>
+                </div>
+                <div class="client">
+                    <img src="./img/dr.A.png" alt="">
+                </div>
+            </div>
+           
+
+        </div>     
+    </div>
+</section>
+
+<section class="faq py-16 bg-gray-50">
+    <div class="container">
+        <div class="faqWrapper ">
+            <div class="faqTitle mb-3">
+                <div class="Title text-huge font-semibold mb-6 text-center ">
+                    <h1>FAQ</h1>
+                </div>
+                <div class="faqText mb-[5rem]">
+                    <p class="text-center mb-6 w-[70%] mx-auto">Problems trying to resolve 
+                        the conflict between the 
+                        two major realms of Classical 
+                        physics: Newtonian mechanics </p>
+                </div>
+
+            </div>
+            <div class="faqCard  md:grid grid-cols-3 gap-3 mx-12 mt-10 ">
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent flex mb-6 w-[100%] mx-auto px-5 py-3 rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent hidden md:flex  md:mb-6  md:w-[100%]  md:mx-auto  md:px-5  md:py-3  md:rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent  hidden md:flex  md:mb-6  md:w-[100%]  md:mx-auto  md:px-5  md:py-3  md:rounded-md bg-white ">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+                <div class="faqContent  hidden md:flex  md:mb-6  md:w-[100%]  md:mx-auto  md:px-5  md:py-3  md:rounded-md bg-white">
+                    <div><i class="fa-solid fa-angle-right px-5 py-1 text-[1.6rem] text-primary"></i></div>
+                    <div class="faqCText">
+                        <div><h3 class="font-bold text-[1.2rem]">the quick fox jumps over 
+                            the lazy dog</h3></div>
+                        <div><p class="text-gray-400">Things on a very small scale ...</p> </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="pricing">
+    <div class="container">
+        <div class="pricingTitle">
+            <div class="pTitle">
+                <h1>Pricing</h1>
+            </div>
+            <div class="pText">
+                <p>Problems trying to resolve 
+                    the conflict between the two major 
+                    realms of Classical physics: 
+                    Newtonian mechanics </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script>
+    const toggleMenu = document.querySelector('.toggleMenu');
+    const headerMobileNav = document.querySelector('.headerMobileNav');
+
+    toggleMenu.addEventListener('click',()=>{
+        headerMobileNav.classList.toggle("active");
+    })
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
